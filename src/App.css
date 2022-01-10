@@ -1,0 +1,26 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+button{
+  font-family: Montserrat;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.App {
+  text-align: center;
+}
+
+.shop{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap : 2rem;
+}
